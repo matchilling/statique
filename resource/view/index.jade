@@ -1,0 +1,12 @@
+extends ./layout/base.jade
+
+block append content
+    .row
+        .col-2
+        .col-8
+            h1 #{locals.config.name}
+            p #{locals.config.description}
+            p
+                a(href='https://github.com/matchilling/statique')
+                    | Download from github
+        .col-2
