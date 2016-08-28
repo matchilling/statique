@@ -2,6 +2,20 @@
 
 Statique is an unopinionated, minimalist library for static website creation and publishing build with Node.js.
 
+## Deploy
+
+```shell
+$ gulp build-deploy-gh-pages
+```
+
+## Gulp options
+
+```shell
+# Set the base url (default: local)
+# C.f. /config/app.json 'deploy.baseUrl.ghPages'
+$ gulp dist --baseUrl=(local|ghPages)
+```
+
 ## License
 
 Copyright (c) 2016 Mathias Schilling

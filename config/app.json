@@ -3,7 +3,7 @@
     "description": "Statique is an unopinionated, minimalist library for static website creation and publishing build with Node.js.",
     "deploy": {
         "baseUrl": {
-            "ghPages": "/statique/",
+            "ghPages": "/",
             "local": "/"
         },
         "cname": "www.statique.org",
